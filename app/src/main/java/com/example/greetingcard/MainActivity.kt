@@ -39,7 +39,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface(color = Color.Magenta, modifier = modifier.fillMaxWidth()) {
         Text(
             text = "Hello, $name!",
-            modifier = modifier.padding(24.dp)
+            modifier = modifier.padding(24.dp),
+            color = Color.Black
         )
     }
 }
